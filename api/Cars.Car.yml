@@ -1,0 +1,424 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cars.Car
+  commentId: T:Cars.Car
+  id: Car
+  parent: Cars
+  children:
+  - Cars.Car.#ctor(System.String,Cars.Engine)
+  - Cars.Car.SetEngine(Cars.Engine)
+  - Cars.Car.ShowCarInfo
+  langs:
+  - csharp
+  - vb
+  name: Car
+  nameWithType: Car
+  fullName: Cars.Car
+  type: Class
+  source:
+    remote:
+      path: Car.cs
+      branch: refs
+      repo: https://github.com/SENEOArgb/Cars.git
+    id: Car
+    path: Car.cs
+    startLine: 8
+  assemblies:
+  - Cars
+  namespace: Cars
+  syntax:
+    content: public abstract class Car
+    content.vb: Public MustInherit Class Car
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Cars.EasyCar
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Cars.Car.#ctor(System.String,Cars.Engine)
+  commentId: M:Cars.Car.#ctor(System.String,Cars.Engine)
+  id: '#ctor(System.String,Cars.Engine)'
+  parent: Cars.Car
+  langs:
+  - csharp
+  - vb
+  name: Car(string, Engine)
+  nameWithType: Car.Car(string, Engine)
+  fullName: Cars.Car.Car(string, Cars.Engine)
+  type: Constructor
+  source:
+    remote:
+      path: Car.cs
+      branch: refs
+      repo: https://github.com/SENEOArgb/Cars.git
+    id: .ctor
+    path: Car.cs
+    startLine: 32
+  assemblies:
+  - Cars
+  namespace: Cars
+  summary: Конструктор для объекта класса Car
+  example: []
+  syntax:
+    content: public Car(string carName, Engine carEngine)
+    parameters:
+    - id: carName
+      type: System.String
+      description: Переменная для обозначения названия автомобиля
+    - id: carEngine
+      type: Cars.Engine
+      description: Переменная для обозначения двигателя автомобиля
+    content.vb: Public Sub New(carName As String, carEngine As Engine)
+  overload: Cars.Car.#ctor*
+  nameWithType.vb: Car.New(String, Engine)
+  fullName.vb: Cars.Car.New(String, Cars.Engine)
+  name.vb: New(String, Engine)
+- uid: Cars.Car.SetEngine(Cars.Engine)
+  commentId: M:Cars.Car.SetEngine(Cars.Engine)
+  id: SetEngine(Cars.Engine)
+  parent: Cars.Car
+  langs:
+  - csharp
+  - vb
+  name: SetEngine(Engine)
+  nameWithType: Car.SetEngine(Engine)
+  fullName: Cars.Car.SetEngine(Cars.Engine)
+  type: Method
+  source:
+    remote:
+      path: Car.cs
+      branch: refs
+      repo: https://github.com/SENEOArgb/Cars.git
+    id: SetEngine
+    path: Car.cs
+    startLine: 43
+  assemblies:
+  - Cars
+  namespace: Cars
+  summary: Метод для сохранения информации о двигателе автомобиля.
+  example: []
+  syntax:
+    content: public void SetEngine(Engine carEngine)
+    parameters:
+    - id: carEngine
+      type: Cars.Engine
+      description: Переменная, обозначающая двигатель автомобиля.
+    content.vb: Public Sub SetEngine(carEngine As Engine)
+  overload: Cars.Car.SetEngine*
+- uid: Cars.Car.ShowCarInfo
+  commentId: M:Cars.Car.ShowCarInfo
+  id: ShowCarInfo
+  parent: Cars.Car
+  langs:
+  - csharp
+  - vb
+  name: ShowCarInfo()
+  nameWithType: Car.ShowCarInfo()
+  fullName: Cars.Car.ShowCarInfo()
+  type: Method
+  source:
+    remote:
+      path: Car.cs
+      branch: refs
+      repo: https://github.com/SENEOArgb/Cars.git
+    id: ShowCarInfo
+    path: Car.cs
+    startLine: 60
+  assemblies:
+  - Cars
+  namespace: Cars
+  summary: Метод для получения информации об автомобиле
+  example: []
+  syntax:
+    content: public void ShowCarInfo()
+    content.vb: Public Sub ShowCarInfo()
+  overload: Cars.Car.ShowCarInfo*
+references:
+- uid: Cars
+  commentId: N:Cars
+  href: Cars.html
+  name: Cars
+  nameWithType: Cars
+  fullName: Cars
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Cars.Car.#ctor*
+  commentId: Overload:Cars.Car.#ctor
+  href: Cars.Car.html#Cars_Car__ctor_System_String_Cars_Engine_
+  name: Car
+  nameWithType: Car.Car
+  fullName: Cars.Car.Car
+  nameWithType.vb: Car.New
+  fullName.vb: Cars.Car.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Cars.Engine
+  commentId: T:Cars.Engine
+  parent: Cars
+  href: Cars.Engine.html
+  name: Engine
+  nameWithType: Engine
+  fullName: Cars.Engine
+- uid: Cars.Car.SetEngine*
+  commentId: Overload:Cars.Car.SetEngine
+  href: Cars.Car.html#Cars_Car_SetEngine_Cars_Engine_
+  name: SetEngine
+  nameWithType: Car.SetEngine
+  fullName: Cars.Car.SetEngine
+- uid: Cars.Car.ShowCarInfo*
+  commentId: Overload:Cars.Car.ShowCarInfo
+  href: Cars.Car.html#Cars_Car_ShowCarInfo
+  name: ShowCarInfo
+  nameWithType: Car.ShowCarInfo
+  fullName: Cars.Car.ShowCarInfo

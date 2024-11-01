@@ -1,0 +1,136 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Cars
+  name: Cars
+  href: api/Cars.html
+  commentId: N:Cars
+  fullName: Cars
+  nameWithType: Cars
+- uid: Cars.Car
+  name: Car
+  href: api/Cars.Car.html
+  commentId: T:Cars.Car
+  fullName: Cars.Car
+  nameWithType: Car
+- uid: Cars.Car.#ctor(System.String,Cars.Engine)
+  name: Car(string, Engine)
+  href: api/Cars.Car.html#Cars_Car__ctor_System_String_Cars_Engine_
+  commentId: M:Cars.Car.#ctor(System.String,Cars.Engine)
+  name.vb: New(String, Engine)
+  fullName: Cars.Car.Car(string, Cars.Engine)
+  fullName.vb: Cars.Car.New(String, Cars.Engine)
+  nameWithType: Car.Car(string, Engine)
+  nameWithType.vb: Car.New(String, Engine)
+- uid: Cars.Car.#ctor*
+  name: Car
+  href: api/Cars.Car.html#Cars_Car__ctor_
+  commentId: Overload:Cars.Car.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Cars.Car.Car
+  fullName.vb: Cars.Car.New
+  nameWithType: Car.Car
+  nameWithType.vb: Car.New
+- uid: Cars.Car.SetEngine(Cars.Engine)
+  name: SetEngine(Engine)
+  href: api/Cars.Car.html#Cars_Car_SetEngine_Cars_Engine_
+  commentId: M:Cars.Car.SetEngine(Cars.Engine)
+  fullName: Cars.Car.SetEngine(Cars.Engine)
+  nameWithType: Car.SetEngine(Engine)
+- uid: Cars.Car.SetEngine*
+  name: SetEngine
+  href: api/Cars.Car.html#Cars_Car_SetEngine_
+  commentId: Overload:Cars.Car.SetEngine
+  isSpec: "True"
+  fullName: Cars.Car.SetEngine
+  nameWithType: Car.SetEngine
+- uid: Cars.Car.ShowCarInfo
+  name: ShowCarInfo()
+  href: api/Cars.Car.html#Cars_Car_ShowCarInfo
+  commentId: M:Cars.Car.ShowCarInfo
+  fullName: Cars.Car.ShowCarInfo()
+  nameWithType: Car.ShowCarInfo()
+- uid: Cars.Car.ShowCarInfo*
+  name: ShowCarInfo
+  href: api/Cars.Car.html#Cars_Car_ShowCarInfo_
+  commentId: Overload:Cars.Car.ShowCarInfo
+  isSpec: "True"
+  fullName: Cars.Car.ShowCarInfo
+  nameWithType: Car.ShowCarInfo
+- uid: Cars.EasyCar
+  name: EasyCar
+  href: api/Cars.EasyCar.html
+  commentId: T:Cars.EasyCar
+  fullName: Cars.EasyCar
+  nameWithType: EasyCar
+- uid: Cars.EasyCar.#ctor(System.String,Cars.Engine,System.String)
+  name: EasyCar(string, Engine, string)
+  href: api/Cars.EasyCar.html#Cars_EasyCar__ctor_System_String_Cars_Engine_System_String_
+  commentId: M:Cars.EasyCar.#ctor(System.String,Cars.Engine,System.String)
+  name.vb: New(String, Engine, String)
+  fullName: Cars.EasyCar.EasyCar(string, Cars.Engine, string)
+  fullName.vb: Cars.EasyCar.New(String, Cars.Engine, String)
+  nameWithType: EasyCar.EasyCar(string, Engine, string)
+  nameWithType.vb: EasyCar.New(String, Engine, String)
+- uid: Cars.EasyCar.#ctor*
+  name: EasyCar
+  href: api/Cars.EasyCar.html#Cars_EasyCar__ctor_
+  commentId: Overload:Cars.EasyCar.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Cars.EasyCar.EasyCar
+  fullName.vb: Cars.EasyCar.New
+  nameWithType: EasyCar.EasyCar
+  nameWithType.vb: EasyCar.New
+- uid: Cars.EasyCar.ShowType
+  name: ShowType()
+  href: api/Cars.EasyCar.html#Cars_EasyCar_ShowType
+  commentId: M:Cars.EasyCar.ShowType
+  fullName: Cars.EasyCar.ShowType()
+  nameWithType: EasyCar.ShowType()
+- uid: Cars.EasyCar.ShowType*
+  name: ShowType
+  href: api/Cars.EasyCar.html#Cars_EasyCar_ShowType_
+  commentId: Overload:Cars.EasyCar.ShowType
+  isSpec: "True"
+  fullName: Cars.EasyCar.ShowType
+  nameWithType: EasyCar.ShowType
+- uid: Cars.Engine
+  name: Engine
+  href: api/Cars.Engine.html
+  commentId: T:Cars.Engine
+  fullName: Cars.Engine
+  nameWithType: Engine
+- uid: Cars.Engine.#ctor(System.String,System.Int32,System.String)
+  name: Engine(string, int, string)
+  href: api/Cars.Engine.html#Cars_Engine__ctor_System_String_System_Int32_System_String_
+  commentId: M:Cars.Engine.#ctor(System.String,System.Int32,System.String)
+  name.vb: New(String, Integer, String)
+  fullName: Cars.Engine.Engine(string, int, string)
+  fullName.vb: Cars.Engine.New(String, Integer, String)
+  nameWithType: Engine.Engine(string, int, string)
+  nameWithType.vb: Engine.New(String, Integer, String)
+- uid: Cars.Engine.#ctor*
+  name: Engine
+  href: api/Cars.Engine.html#Cars_Engine__ctor_
+  commentId: Overload:Cars.Engine.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Cars.Engine.Engine
+  fullName.vb: Cars.Engine.New
+  nameWithType: Engine.Engine
+  nameWithType.vb: Engine.New
+- uid: Cars.Engine.GetEngineInfo
+  name: GetEngineInfo()
+  href: api/Cars.Engine.html#Cars_Engine_GetEngineInfo
+  commentId: M:Cars.Engine.GetEngineInfo
+  fullName: Cars.Engine.GetEngineInfo()
+  nameWithType: Engine.GetEngineInfo()
+- uid: Cars.Engine.GetEngineInfo*
+  name: GetEngineInfo
+  href: api/Cars.Engine.html#Cars_Engine_GetEngineInfo_
+  commentId: Overload:Cars.Engine.GetEngineInfo
+  isSpec: "True"
+  fullName: Cars.Engine.GetEngineInfo
+  nameWithType: Engine.GetEngineInfo

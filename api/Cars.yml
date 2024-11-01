@@ -1,0 +1,45 @@
+### YamlMime:ManagedReference
+items:
+- uid: Cars
+  commentId: N:Cars
+  id: Cars
+  children:
+  - Cars.Car
+  - Cars.EasyCar
+  - Cars.Engine
+  langs:
+  - csharp
+  - vb
+  name: Cars
+  nameWithType: Cars
+  fullName: Cars
+  type: Namespace
+  assemblies:
+  - Cars
+references:
+- uid: Cars.Car
+  commentId: T:Cars.Car
+  parent: Cars
+  href: Cars.Car.html
+  name: Car
+  nameWithType: Car
+  fullName: Cars.Car
+- uid: Cars.EasyCar
+  commentId: T:Cars.EasyCar
+  href: Cars.EasyCar.html
+  name: EasyCar
+  nameWithType: EasyCar
+  fullName: Cars.EasyCar
+- uid: Cars.Engine
+  commentId: T:Cars.Engine
+  parent: Cars
+  href: Cars.Engine.html
+  name: Engine
+  nameWithType: Engine
+  fullName: Cars.Engine
+- uid: Cars
+  commentId: N:Cars
+  href: Cars.html
+  name: Cars
+  nameWithType: Cars
+  fullName: Cars
