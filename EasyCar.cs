@@ -46,5 +46,10 @@ namespace Cars
         {
             Console.WriteLine("Данная машина является легковой");
         }
+        
+        public void SimpleString()
+        {
+            Console.WriteLine("ЭТО МАШИНА!");
+        }
     }
 }
