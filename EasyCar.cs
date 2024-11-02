@@ -47,6 +47,9 @@ namespace Cars
             Console.WriteLine("Данная машина является легковой");
         }
         
+        /// <summary>
+        /// Метод для показа того, что объект является машиной.
+        /// </summary>
         public void SimpleString()
         {
             Console.WriteLine("ЭТО МАШИНА!");
